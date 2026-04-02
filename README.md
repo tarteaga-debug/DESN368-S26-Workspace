@@ -56,18 +56,18 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
 - **GitHub Profile:**  ⏳
-- **Workspace Repository:** [Add your repository URL here] ⏳
-- **Figma:** [Add your Figma username here] ⏳
-- **CodePen:** [Add your CodePen profile URL here] ⏳
+- **Workspace Repository:** [https://github.com/tarteaga-debug/DESN368-S26-Workspace] ⏳
+- **Figma:** [Tracy Arteaga] ⏳
+- **CodePen:** [https://codepen.io/tarteaga-debug] ⏳
 - **LiveCode:** [Add your LiveCode profile here] ⏳
-- **GitHub Student Pack:** [Confirm approval status here] ⏳
+- **GitHub Student Pack:** [pending] ⏳
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README
 2. Replace the placeholder text with your actual profile information:
-   - Change `[Add your repository URL here]` → `[https://github.com/tarteaga-debug/DESN368-S26-Workspace]`
-   - Change `[Add your Figma username here]` → Tracy Arteaga
-   - Change `[Add your CodePen profile URL here]` → `[https://codepen.io/tarteaga-debug]`
+   - Change `[Add your repository URL here]` → `[]`
+   - Change `[Add your Figma username here]` → 
+   - Change `[Add your CodePen profile URL here]` → `[]`
    - Change `[Confirm approval status here]` → `Approved` or `Pending` for GitHub Pack
 3. Scroll to bottom and click **"Commit changes"**
 4. Repeat this process each time you complete a new tool setup  
