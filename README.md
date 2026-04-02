@@ -59,7 +59,6 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **Workspace Repository:** [https://github.com/tarteaga-debug/DESN368-S26-Workspace] ⏳
 - **Figma:** [Tracy Arteaga] ⏳
 - **CodePen:** [https://codepen.io/tarteaga-debug] ⏳
-- **LiveCode:** [Add your LiveCode profile here] ⏳
 - **GitHub Student Pack:** [pending] ⏳
 
 ### **How to Update Your Toolkit:**
