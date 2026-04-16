@@ -1,128 +1,83 @@
-# 🎉 Welcome to DESN368 CODE + DESIGN ONE!
-Travis Masingale · Spring 2026
+# 🟣🔮 DESN368 CODE + DESIGN I 🔮🟣  
+### 🌙 A Digital Grimoire of Code & Design 🕯️  
 
-**Welcome to DESN368 Web Design!**
-This is your course workspace — the place where all your code, designs, and projects live. By the end of the quarter, this repo becomes your portfolio.
+🕯️ *Ink, logic, and intention — this is where creation begins.*  
 
----
+🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 
-## 🚀 **NEXT STEPS - START HERE!**
+## 🔮 Student Record  
 
-### **Step 1: 🐙 Create a GitHub Account**
-If you don't already have one, sign up at [github.com](https://github.com/signup).
+👤 **Student Information**  
+- Instructor: Professor Travis Masingale  
+- Email: tmasingale@ewu.edu  
+- Course: DESN368 CODE + DESIGN 1  
+- Quarter: Spring 2026 🌙  
 
-1. Use a **professional username** — this will be part of your portfolio URL
-2. Use your **EWU email** or a personal email you check regularly
-3. Verify your email address
+🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 
-### **Step 2: 🐙 Set Up Your GitHub Profile**
-Make your profile presentable before anything else.
+## 🕯️ Toolkit  
 
-1. Click your avatar (top right) → **Your profile** → **Edit profile**
-2. Add your **real name** (so I know who you are!)
-3. Add a **bio** (e.g., "DESN368 Student | Learning Web Design")
-4. Add a **profile photo** (helps me learn names!)
+*Magical instruments for building and design:*  
 
-### **Step 3: 🗂️ Create Your Workspace**
-👉 Click **"Use this template"** → **"Create a new repository"** at the top of this page.
+- 🕯️ GitHub Profile: ⏳  
+- 📜 Workspace Repository: https://github.com/tarteaga-debug/DESN368-S26-Workspace ⏳  
+- 🎨 Figma: Tracy Arteaga ⏳  
+- 🪶 CodePen: https://codepen.io/tarteaga-debug ⏳  
+- 🎁 GitHub Student Pack: Pending ⏳  
 
-Name your repo something professional — this URL will be part of your portfolio.
+🪶 **Ritual of Updating**  
+1. Select the ✏️ edit icon in the upper right  
+2. Replace placeholders with your true links  
+3. Commit changes 🟣  
+4. Repeat as tools awaken 🔮  
 
-### **Step 4: 🚀 Run the Onboarding Workflow**
-Your repo includes an automated workflow that creates setup issues — one for each remaining tool, with checkboxes to track your progress.
+🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 
-1. In **your new repository**, click the **Actions** tab
-2. In the left sidebar, click **"🚀 Create Onboarding Issues"**
-3. Click the **"Run workflow"** dropdown → click the green **"Run workflow"** button
-4. Wait about 30 seconds, then go to your **Issues** tab — you’ll see setup issues for Figma, CodePen, and more
+## 🌙 Progress Log  
 
-Work through the issues in order, checking off tasks and closing each issue as you finish.
+*Each completed task strengthens the spellwork:*  
 
-### **Step 5: 📝 Update This README**
-As you complete each tool setup, **come back and update the "My Toolkit" section below** with your actual profile links.
+- [ ] 🕯️ Week 1: S3tup & 0nb04rd1ng  
+- [ ] 🔮 Week 2: Th3 F1r5t T4g  
+- [ ] 📜 Week 3: D0cum3nt 4rch1t3ctur3  
+- [ ] 🌘 Week 4: Th3 C4sc4d3 B3g1n5  
+- [ ] 🪶 Week 5: F0rm5 & 1nput5  
+- [ ] 🕸️ Week 6: Fl3xb0x M45t3ry  
+- [ ] 🦇 Week 7: Tr1but3 P4g3  
+- [ ] 🧿 Week 8: Gr1d Sy5t3m5  
+- [ ] ⚗️ Week 9: Pr0duct L4nd1ng  
+- [ ] 🪞 Week 10: P0rtf0l10 Sy5t3m  
+- [ ] 🚀 Finals: Sh1p 1t  
 
-📋 You can also find the full setup checklist at [setup/ONBOARDING-CHECKLIST.md](setup/ONBOARDING-CHECKLIST.md).
+🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 
----
+## 🌌 Archive & Resources  
 
-## 👤 **Student Information**
-**Instructor:** Professor Travis Masingale
-**Email:** tmasingale@ewu.edu
-**Course:** DESN368 CODE + DESIGN 1
-**Quarter:** Spring 2026  
+🔮 Milanote  
+https://app.milanote.com/1W6e931MhvTVaN?p=1kaC1j7112i  
 
----
+🌙 Canvas  
+https://canvas.ewu.edu  
 
-## 🛠️ **My Toolkit**
-*Update these links as you complete each tool setup:*
-- **GitHub Profile:**  ⏳
-- **Workspace Repository:** [https://github.com/tarteaga-debug/DESN368-S26-Workspace] ⏳
-- **Figma:** [Tracy Arteaga] ⏳
-- **CodePen:** [https://codepen.io/tarteaga-debug] ⏳
-- **GitHub Student Pack:** [pending] ⏳
+🎨 Figma Team  
+https://www.figma.com/team_invite/redeem/x4YhkxdsvcOhUte2KX7Zwm?t=MxznjhsFuM43uNyb-21  
 
-### **How to Update Your Toolkit:**
-1. **Click the pencil icon** (✏️) at the top right of this README
-2. Replace the placeholder text with your actual profile information:
-   - Change `[Add your repository URL here]` → `[]`
-   - Change `[Add your Figma username here]` → 
-   - Change `[Add your CodePen profile URL here]` → `[]`
-   - Change `[Confirm approval status here]` → `Approved` or `Pending` for GitHub Pack
-3. Scroll to bottom and click **"Commit changes"**
-4. Repeat this process each time you complete a new tool setup  
+📖 Syllabus  
+https://code-and-design.org/1/syllabus/  
 
----
+🕯️ Support  
+- Email: tmasingale@ewu.edu  
+- Hours: Mon/Wed 1–2:30pm, Thurs 1–2pm  
+- Location: Catalyst Room 167  
 
-## 🎯 **Course Progress**
-*Check off assignments as you complete them:*
+🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 
-- [ ] **Week 1:** S3tup & 0nb04rd1ng
-- [ ] **Week 2:** Th3 F1r5t T4g
-- [ ] **Week 3:** D0cum3nt 4rch1t3ctur3
-- [ ] **Week 4:** Th3 C4sc4d3 B3g1n5
-- [ ] **Week 5:** F0rm5 & 1nput5
-- [ ] **Week 6:** Fl3xb0x M45t3ry
-- [ ] **Week 7:** Tr1but3 P4g3
-- [ ] **Week 8:** Gr1d Sy5t3m5
-- [ ] **Week 9:** Pr0duct L4nd1ng
-- [ ] **Week 10:** P0rtf0l10 Sy5t3m
-- [ ] **Finals:** Sh1p 1t  
+## 🔮 Spell Status  
 
----
+🟣 initialization: in progress...  
+🟣 toolkit: awakening...  
+🟣 system: stabilizing...  
 
-## 📁 **Repository Structure**
-Here’s what’s in your portfolio repository:
-- **`/setup/`** - 📋 Tool setup guides and verification checklist
-- **`/week-1/`** - 📝 Week 1 assignments and projects
-- **`/projects/`** - 🎨 Major course projects and portfolio pieces
-- **`README.md`** - 📖 This file - your portfolio home page  
+🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 
----
-
-## 🔗 **Course Resources**
-### **Primary Course Hub**
-- **📌 Milanote Course Home** - [Course board with assignments & resources](https://app.milanote.com/1W6e931MhvTVaN?p=1kaC1j7112i)
-
-### **Learning Platforms**
-- **📚 Canvas LMS** - [Grades and official submissions](https://canvas.ewu.edu)
-- **🎨 Figma Team** - [Design projects](https://www.figma.com/team_invite/redeem/x4YhkxdsvcOhUte2KX7Zwm?t=MxznjhsFuM43uNyb-21)
-
-### **Practice & Reference**
-- **📖 Course Syllabus** - [Course policies and schedule](https://code-and-design.org/1/syllabus/)  
-  
-
-### **Support**
-- **✉️ Instructor Email:** [tmasingale@ewu.edu](mailto:tmasingale@ewu.edu)
-- **🏢 Office Hours:** Mon/Wed 1–2:30pm, Thurs 1–2pm
-- **📍 Location:** Catalyst Room 167  
-
----
-
-## 🆘 **Need Help?**
-- **Stuck on setup?** Check the [troubleshooting guides](setup/) in your setup folder.  
-- **Technical issues?** Email your instructor or visit office hours.  
-- **Want to see examples?** Browse other students' public repositories for inspiration.  
-
----
-
-**🎯 Ready to start? [Go to your setup checklist now!](setup/ONBOARDING-CHECKLIST.md)**
+🕯️🌙 *End of entry* 🌙🕯️  
