@@ -32,7 +32,7 @@ h2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
     color: #444;
-    border-bottom: 2px solid #007bff;
+    border-bottom: 2px solid #6f42c1;
     padding-bottom: 0.5rem;
 }
 
@@ -75,13 +75,13 @@ li::before {
     content: "→";
     position: absolute;
     left: 0;
-    color: #007bff;
+    color: #6f42c1;
     font-weight: bold;
 }
 
 /* Links */
 a {
-    color: #007bff;
+    color: #6f42c1;
     text-decoration: none;
     font-weight: 500;
     transition: all 0.2s ease;
@@ -89,12 +89,12 @@ a {
 }
 
 a:hover {
-    color: #0056b3;
-    border-bottom: 1px solid #007bff;
+    color: #5a32a3;
+    border-bottom: 1px solid #6f42c1;
 }
 
 a:active {
-    color: #004085;
+    color: #4c2a85;
 }
 
 /* Responsive */
