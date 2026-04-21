@@ -1,9 +1,21 @@
-# 🟣🔮 DESN368 CODE + DESIGN I 🔮🟣  
-### 🌙 A Digital Grimoire of Code & Design 🕯️  
+# 🟣🔮 TRACY ARTEAGA: DESN 368 🔮🟣  
+
+🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
+I'm Graphic Design student who 
+loves the color purple. This 
+repo tracks my progress, and 
+holds my projects for DESN 368.
+🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣 
 
 🕯️ *Ink, logic, and intention — this is where creation begins.*  
 
 🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
+
+## 🔮 Spell Status  
+
+🟣 WEEK 1: Newspaper Layout, Lost Pet Flyer, Favorite Band Page
+🟣 WEEK 2: HTML 101 Exercise, Recipe Page, HTML Skeleton
+🟣 WEEK 3: CSS Foundations, Recipe Styling
 
 ## 🔮 Student Record  
 
@@ -70,13 +82,7 @@ https://code-and-design.org/1/syllabus/
 - Hours: Mon/Wed 1–2:30pm, Thurs 1–2pm  
 - Location: Catalyst Room 167  
 
-🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 
-## 🔮 Spell Status  
-
-🟣 initialization: in progress...  
-🟣 toolkit: awakening...  
-🟣 system: stabilizing...  
 
 🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 
