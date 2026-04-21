@@ -5,17 +5,17 @@ I'm Graphic Design student who
 loves the color purple. This 
 repo tracks my progress, and 
 holds my projects for DESN 368.
-🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣 
+##🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣 
 
 🕯️ *Ink, logic, and intention — this is where creation begins.*  
 
-🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
+##🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 
 ## 🔮 Spell Status  
 
-🟣 WEEK 1: Newspaper Layout, Lost Pet Flyer, Favorite Band Page
-🟣 WEEK 2: HTML 101 Exercise, Recipe Page, HTML Skeleton
-🟣 WEEK 3: CSS Foundations, Recipe Styling
+- 🟣 WEEK 1: Newspaper Layout, Lost Pet Flyer, Favorite Band Page
+- 🟣 WEEK 2: HTML 101 Exercise, Recipe Page, HTML Skeleton
+- 🟣 WEEK 3: CSS Foundations, Recipe Styling
 
 ## 🔮 Student Record  
 
