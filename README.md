@@ -1,15 +1,15 @@
 # 🟣🔮 TRACY ARTEAGA: DESN 368 🔮🟣  
 
-🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
+## 🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 I'm Graphic Design student who 
 loves the color purple. This 
 repo tracks my progress, and 
 holds my projects for DESN 368.
-##🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣 
+## 🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣 
 
 🕯️ *Ink, logic, and intention — this is where creation begins.*  
 
-##🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
+## 🟣 ✧･ﾟ: *✧･ﾟ:* 　　 *:･ﾟ✧*:･ﾟ✧ 🟣  
 
 ## 🔮 Spell Status  
 
