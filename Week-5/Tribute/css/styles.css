@@ -28,10 +28,20 @@
   font-style: normal;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner {
+  text-align:center;
+}
+
 .florals {
-  background-image: url();
+  background-image: url('assets/images/florals.png');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
 }
 .banner {
   background-color: #573B64;
@@ -95,10 +105,7 @@
   color: #573B64;
 }
 .timeline {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
   margin-top: 80px;
   margin-bottom: 80px;
 }
@@ -108,20 +115,19 @@
   height: 100px;
   border-radius: 50%;
   background-color: lavender;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
+  line-height: 100px;
   text-align: center;
   font-family: "Libre Bodoni", serif;
   font-style: normal;
   font-size: 30px;
-  margin: 10px 90px 10px 90px;
+  margin: 10px auto;
 }
 
 .pearl {
   width: 60px;
   height: 60px;
-  margin: 10px 0;
+  margin: 10px;
 }
 .timeline p {
     font-size: 25px;
@@ -129,10 +135,8 @@
 
 .glitters {
   background-image: linear-gradient(to bottom, #000000, #573B64, #9787A1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;  
+  text-align: center;
+  padding: 50px 0;
 }
 
 .quote {
@@ -166,14 +170,6 @@
   background-color: rgb(0,0,0,0.5);
   border-radius: 12px;
   color: white
-}
-
-.glitters {
-  background-image: linear-gradient(to bottom, #000000, #573B64, #9787A1);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;  
 }
 
 .industry-slave {
