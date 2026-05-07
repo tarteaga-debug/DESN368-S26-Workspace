@@ -1,0 +1,136 @@
+/*Uncial Antiqua Regular
+========================
+============================
+IM Fell English: CSS classes
+============================
+
+.uncial-antiqua-regular {
+  font-family: "Uncial Antiqua", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.im-fell-english-regular {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.im-fell-english-regular-italic {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.almendra-sc-regular {
+  font-family: "Almendra SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+*/
+
+
+
+body {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  background-color: #E0C9A6
+}
+
+.book-header {
+  font-family: "Almendra SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.genre-label {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+}
+
+.book-title {
+  font-family: "Almendra SC", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.book-author {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chapter-number {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.chapter-title {
+  
+}
+
+
+.book-meta {
+  padding-bottom: 60px;
+  font-family: "Almendra SC", serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 16px
+  
+}
+
+.book-date {
+  font-family: "IM Fell English", serif;
+  font-weight: 400px;
+  font-style: normal;
+  text-align: left;
+  font-size: 18px;
+}
+
+.first {
+  font-family: "Almendra SC", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  text-align: left;
+  margin: 20px;
+}
+
+.book-excerpt {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.book-excerpt {
+  font-size: 18px;
+  margin: 20px;
+  text-align: justify;
+}
+
+.typography-analysis {
+  padding-top: 40px;
+  margin: 20px;
+  text-align: 20px
+}
+
+.typography-analysis h2 {
+ 
+}
+
+.typography-analysis p {
+  
+}
+
+.ana-starter {
+  font-family: "IM Fell English", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 25px;
+}
