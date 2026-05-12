@@ -6,57 +6,85 @@
 }
 
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    font-family: 'Cinzel', serif; /* Sophisticated serif font with elegant curves */
     line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
+    color: #FFFFFF; /* Bright white for high contrast */
+    background: 
+        repeating-linear-gradient(45deg, transparent, transparent 20px, rgba(255, 255, 255, 0.05) 20px, rgba(255, 255, 255, 0.05) 40px), /* Subtle zebra stripes */
+        linear-gradient(135deg, #2E1B3D 0%, #4B0082 50%, #800080 100%); /* Dark plum gradient */
+    background-attachment: fixed; /* Fixed background for glamour */
+    min-height: 100vh;
 }
 
 main {
-    max-width: 800px;
+    max-width: 800px; /* Back to single column width */
     margin: 0 auto;
     padding: 2rem;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.9); /* Darker for better contrast */
     min-height: 100vh;
+    border-radius: 15px;
+    box-shadow: 
+        0 0 30px rgba(184, 134, 11, 0.4), /* Muted gold glow */
+        inset 0 0 50px rgba(0, 0, 0, 0.5); /* Inner shadow for dimension */
+    position: relative;
+    border: 1px solid rgba(184, 134, 11, 0.3); /* Subtle gold border */
 }
 
 /* Headings */
 h1 {
-    font-size: 2.5rem;
+    font-size: 4rem; /* Larger for better readability and impact */
     margin-bottom: 0.5rem;
-    color: #222;
+    color: #B8860B; /* Muted gold */
+    text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.7), 
+        0 0 10px rgba(184, 134, 11, 0.5); /* Layered shadows for depth */
+    background: linear-gradient(45deg, #B8860B, #DAA520); /* Gradient for texture */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700; /* Bolder for emphasis */
+    text-align: center; /* Centered for prominence */
 }
 
 h2 {
     font-size: 1.8rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    color: #444;
-    border-bottom: 2px solid #6f42c1;
+    color: #B8860B; /* Muted gold */
+    border-bottom: 2px solid #B8860B; /* Muted gold border */
     padding-bottom: 0.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 h3 {
     font-size: 1.3rem;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
-    color: #555;
+    color: #FFFFFF; /* White */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 /* Paragraphs */
 p {
     margin-bottom: 1rem;
-    color: #666;
+    color: #F5F5F5; /* Off-white for readability */
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
 }
 
 em {
-    color: #999;
+    color: #B8860B; /* Muted gold for emphasis */
     font-style: italic;
+    text-shadow: 0 0 5px rgba(184, 134, 11, 0.3);
 }
 
 /* Sections */
 section {
     margin-bottom: 2rem;
+    padding: 1.5rem;
+    background: rgba(75, 0, 130, 0.15); /* Purple tint for incorporation */
+    border-radius: 8px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(128, 0, 128, 0.3); /* Purple border */
 }
 
 /* Lists */
@@ -75,26 +103,29 @@ li::before {
     content: "→";
     position: absolute;
     left: 0;
-    color: #6f42c1;
+    color: #B8860B; /* Muted gold */
     font-weight: bold;
+    text-shadow: 0 0 3px rgba(184, 134, 11, 0.5);
 }
 
 /* Links */
 a {
-    color: #6f42c1;
+    color: #B8860B; /* Muted gold */
     text-decoration: none;
     font-weight: 500;
-    transition: all 0.2s ease;
+    transition: all 0.3s ease;
     border-bottom: 1px solid transparent;
+    text-shadow: 0 0 3px rgba(184, 134, 11, 0.2);
 }
 
 a:hover {
-    color: #5a32a3;
-    border-bottom: 1px solid #6f42c1;
+    color: #DAA520; /* Slightly brighter gold */
+    border-bottom: 1px solid #B8860B;
+    text-shadow: 0 0 8px rgba(184, 134, 11, 0.6); /* Enhanced glow */
 }
 
 a:active {
-    color: #4c2a85;
+    color: #8B6914; /* Darker muted gold */
 }
 
 /* Responsive */
