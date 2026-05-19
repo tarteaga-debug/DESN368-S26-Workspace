@@ -127,3 +127,45 @@ footer {
   text-align: center;
   padding: 1.5rem;
 }
+
+.deco {
+  width:20px;
+  height: auto;
+}
+
+#deco-1 {
+  position: absolute;
+  top: 21%; 
+  left: -5%;
+  pointer-events: none;
+}
+
+#deco-2 {
+  position: absolute;
+  top: 39%; 
+  right: 40%;
+  pointer-events: none;
+}
+
+#deco-3{
+  position: absolute;
+  top: 55%; 
+  right: 5%;
+  pointer-events: none;
+  width: 30px;
+  height: auto;
+}
+
+#deco-4 {
+  position: absolute;
+  bottom: 10%; 
+  left: 20%;
+  pointer-events: none;
+}
+
+#deco-5{
+  position: absolute;
+  bottom: -1%; 
+  right: 20%;
+  pointer-events: none;
+}
