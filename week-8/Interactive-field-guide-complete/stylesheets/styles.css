@@ -69,6 +69,7 @@ body {
   font-family: "Blinker", sans-serif;
   font-weight: 400;
   font-style: normal;
+  background-color: black;
 }
 .banner {
   background-size: cover;
@@ -87,7 +88,7 @@ body {
   flex-direction: column;
   flex-shrink: 0;
   padding: 2rem;
-  font-size: 1.2rem;
+  font-size: 1.8rem;
   position: sticky;
   top: 1rem;
   background-color: #051918;
@@ -109,11 +110,12 @@ body {
 .sidebar a {
   font-family: "Blinker", sans-serif;
   font-weight: 700;
+  font-size: 1rem;
   font-style: normal;
   color: #00AFB2;
   text-decoration: none;
   display: block;
-  padding: 0.75rem;
+  padding: 1rem;
   border-style: solid;
   border-image: linear-gradient(to bottom, #00AFB2, black)1;
   border-width: 1.5px;
@@ -130,30 +132,46 @@ body {
 }
 
 .content section{
-  background: white;
   padding: 2rem;
   margin-bottom: 2rem;
   scroll-margin-top: 1rem;
   scroll-behavior: smooth;
   position: relative;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+  color: whitesmoke;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #E7B956;
+}
+section p {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #BBFEFF;
 }
 #game-intro {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 #visitor-id {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 #game-cycle {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 #key-tips {
-  font-size: 18px;
+  font-size: 30px;
 }
 
 #game-overview {
-  font-size: 18px;
+  font-size: 30px;
 }
