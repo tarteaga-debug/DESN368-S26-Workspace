@@ -175,3 +175,29 @@ section p {
 #game-overview {
   font-size: 30px;
 }
+
+.char-box {
+  width: 350px;
+  height: 500px; 
+  background-color:#051918;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #00AFB2, black)1;
+  border-width: 1.5px;
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem;
+}
+
+.char-box img {
+  width: 300px;
+  height: auto;
+}
+
+.char-box h2 {
+  font-size: 2rem;
+}
+
+.char-box p {
+  font-size: 1rem;
+  line-height: 1rem;
+}
