@@ -1,10 +1,17 @@
 
+.container {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
 .sidebar {
   width: 300px;
-  height: 400px;
+  max-height: 600px;
   display: flex;
+  flex-direction: column;
   flex-shrink: 0;
-  padding: 1.5rem 1.5rem;
+  padding: 1.5rem;
   font-size: 1.3rem;
   position: sticky;
   top: 1rem;
@@ -15,7 +22,6 @@
   flex: 1;
   flex-basis: auto;
   padding: 2rem;
-  background: #ecf0f1;
 }
 
 .content section{
