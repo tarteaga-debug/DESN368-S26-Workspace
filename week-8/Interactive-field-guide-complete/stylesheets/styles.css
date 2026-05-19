@@ -1,23 +1,123 @@
+/*.blinker-thin {
+  font-family: "Blinker", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.blinker-extralight {
+  font-family: "Blinker", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.blinker-light {
+  font-family: "Blinker", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.blinker-regular {
+  font-family: "Blinker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blinker-semibold {
+  font-family: "Blinker", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.blinker-bold {
+  font-family: "Blinker", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.blinker-extrabold {
+  font-family: "Blinker", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.blinker-black {
+  font-family: "Blinker", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+Geo: CSS classes
+
+.geo-regular {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.geo-regular-italic {
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Blinker", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .container {
   display: flex;
-  align-items: flex-start;
-  gap: 2rem;
 }
 
 .sidebar {
   width: 300px;
-  max-height: 600px;
+  max-height: 400px;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
-  padding: 1.5rem;
-  font-size: 1.3rem;
+  padding: 2rem;
+  font-size: 1.2rem;
   position: sticky;
   top: 1rem;
-  background-color: grey;
+  background-color: #051918;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #00AFB2, black)1;
+  border-width: 1.5px;
+}
+.sidebar ul {
+  list-style: none;
+  position: sticky;
+  top: 1rem;
+  text-align: center;
 }
 
+.sidebar li {
+  margin-bottom: 1rem;
+}
+
+.sidebar a {
+  font-family: "Blinker", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: #00AFB2;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #00AFB2, black)1;
+  border-width: 1.5px;
+}
+
+.sidebar a:hover {
+  background: #00AFB2;
+  color: black;
+}
 .content {
   flex: 1;
   flex-basis: auto;
