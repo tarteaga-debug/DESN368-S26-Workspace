@@ -65,11 +65,6 @@ Geo: CSS classes
   box-sizing: border-box;
 }
 
-header {
-
-
-}
-
 body {
   font-family: "Blinker", sans-serif;
   font-weight: 400;
@@ -80,11 +75,36 @@ body {
 
 h1 {
   position: absolute; 
-  top: 60%;
-  left: 20%;
+  top: 50%;
+  left: 23%;
   color: white;
+  font-size: 4rem;
   z-index: 1;
 }
+
+.man {
+  position: absolute; 
+  top: 16%;
+  right: 20%;
+  z-index: 1;
+}
+
+.logo {
+  position: absolute; 
+  top: 10%;
+  left: 15%;
+  z-index: 1;
+}
+
+.sub-hero {
+  position: absolute; 
+  top: 60%;
+  left: 23%;
+  color: white;
+  font-size: 1.4rem;
+  z-index: 1;
+}
+
 .container {
   display: flex;
 }
