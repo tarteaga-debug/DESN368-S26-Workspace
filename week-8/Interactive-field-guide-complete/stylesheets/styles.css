@@ -168,19 +168,31 @@ h1 {
 .noise {
  position: absolute;
  left: 50px;
- top: -20px;
+ top: 0px;
+ width: 1600px;
  z-index: 1;
 }
 .house {
  position: absolute;
- left: -300px;
- top: 240px;
+ left: -320px;
+ top: 150px;
+ margin: 0 auto;
+ object-fit: cover;
+ z-index: 1;
+}
+.blinds {
+ position: absolute;
+ right: -100px;
+ top: -160px;
+ object-fit: cover;
+
  z-index: 1;
 }
 .content {
   flex: 1;
   flex-basis: auto;
   padding: 2rem;
+  max-width: 1200px;
   z-index: 3;
 }
 
@@ -229,7 +241,7 @@ section p {
   padding: 30px 30px 30px 30px;
   width: fit-content; 
   box-shadow: 0 0 20px #00AFB2;
-  margin-top: 5rem;
+
   z-index: 3;
 }
 .signs ul{
@@ -271,6 +283,7 @@ p {
 
 #game-cycle {
   font-size: 30px;
+  margin-top: 20rem;
 }
 
 #key-tips {
