@@ -89,7 +89,7 @@ header {
 }
 h1 {
   position: absolute; 
-  top: 50%;
+  top: 45%;
   left: 21%;
   color: white;
   font-size: 4.5rem;
@@ -106,7 +106,7 @@ h1 {
 
 .sub-hero {
   position: absolute; 
-  top: 60%;
+  top: 52%;
   left: 21%;
   color: white;
   font-size: 1.62rem;
@@ -115,6 +115,7 @@ h1 {
 
 .container {
   display: flex;
+  position:relative;
 }
 
 .sidebar {
@@ -131,6 +132,7 @@ h1 {
   border-style: solid;
   border-image: linear-gradient(to bottom, #00AFB2, black)1;
   border-width: 1.5px;
+  z-index: 3;
 }
 .sidebar ul {
   list-style: none;
@@ -161,11 +163,19 @@ h1 {
   background: #00AFB2;
   color: black;
 }
+
+
+.noise {
+ position: absolute;
+ left: 50px;
+ top: 20px;
+ z-index: 1;
+}
+
 .content {
   flex: 1;
   flex-basis: auto;
   padding: 2rem;
-  max-width: 1200px;
 }
 
 .content section{
@@ -174,6 +184,7 @@ h1 {
   scroll-margin-top: 1rem;
   scroll-behavior: smooth;
   position: relative;
+  z-index: 2;
 }
 
 section h2 {
@@ -208,8 +219,10 @@ section p {
 }
 .signs ul{
   list-style-type: none;
-  padding: 32px 0 64px 0;
+  padding: 32px 0 200px 0;
   color: white;
+  font-size: 2rem;
+  line-height: 4rem;
 }
 
 p {
@@ -279,6 +292,7 @@ p {
 
 .char-box h2 {
   font-size: 2rem;
+  padding: 10px;
 }
 
 .char-box p {
@@ -286,5 +300,6 @@ p {
   line-height: 1rem;
   padding-right: 4rem;
   padding-left: 4rem;
+  padding-top: 10px;
 
 }
