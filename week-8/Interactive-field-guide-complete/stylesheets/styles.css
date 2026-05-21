@@ -362,3 +362,93 @@ footer p {
   box-shadow: 0 0 20px #00AFB2;
   text-align: center;
 }
+
+.mobile-header {
+  display: none;
+}
+
+.sidebar-toggle {
+  display: none;
+}
+
+.sidebar .close-btn {
+  display: none;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+.mobile-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  z-index: 2001;
+}
+
+.sidebar {
+  max-height: none;
+  top: 0;
+}
+.container {
+  flex-direction: column;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100vh;
+  max-height: none;
+  padding-top: 5rem;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+.sidebar .close-btn {
+  display: block;
+}
+.close-btn {
+  display: block;
+  position: absolute;
+  right: 1.5rem;
+  top: 1.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  color: white;
+  line-height: 1;
+}
+.sidebar-toggle:checked ~ .container .hamburger {
+  display: none;
+}
+.sidebar-toggle:checked ~ .container .sidebar {
+  transform: translateX(0);
+}
+
+.sidebar-toggle:checked ~ .container .sidebar::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 280px;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+}
+
