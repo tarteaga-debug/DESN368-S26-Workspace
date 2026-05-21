@@ -72,11 +72,21 @@ body {
   background-color: black;
 }
 
+header {
+  width: 100%;
+  flex-shrink: 0;
+  position: relative;
+}
+.back-banner {
+  width: 100%;
+  display: block;
+}
 .man {
   position: absolute; 
   top: 16%;
   right: 20%;
   z-index: 10;
+
 }
 h1 {
   position: absolute; 
@@ -87,7 +97,6 @@ h1 {
   z-index: 1;
   text-shadow: 0 0 20px #00AFB2, 0 0 20px #00AFB2
 }
-
 
 .logo {
   position: absolute; 
@@ -157,6 +166,7 @@ h1 {
   flex: 1;
   flex-basis: auto;
   padding: 2rem;
+  max-width: 1200px;
 }
 
 .content section{
@@ -185,6 +195,42 @@ section p {
   line-height: 2.5rem;
   color: #BBFEFF;
 }
+
+.signs {
+  padding: 64px 0px;
+}
+
+.physical {
+  background-color:#00AFB2;
+  color: black;
+  padding: 30px 30px 30px 30px;
+  width: fit-content; 
+  box-shadow: 0 0 20px #00AFB2;
+}
+.signs ul{
+  list-style-type: none;
+  padding: 32px 0 64px 0;
+  color: white;
+}
+
+p {
+  padding: 25px 0px;
+}
+#key-tips {
+  text-align: center;
+}
+#key-tips p {
+  font-weight: 700;
+  font-style: normal;
+  background-color:#00AFB2;
+  color: black;
+  padding: 10px 20px;
+  margin: 32px auto;
+  width: 380px; 
+  box-shadow: 0 0 20px #00AFB2;
+  text-align: center;
+
+}
 #game-intro {
   font-size: 30px;
 }
@@ -205,6 +251,15 @@ section p {
   font-size: 30px;
 }
 
+#characters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: .5rem;
+}
+#characters h2 {
+  flex-basis: 100%;
+}
 .char-box {
   width: 350px;
   height: 500px; 
