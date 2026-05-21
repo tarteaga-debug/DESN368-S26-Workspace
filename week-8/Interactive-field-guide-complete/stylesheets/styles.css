@@ -334,3 +334,31 @@ p {
   padding-top: 10px;
 
 }
+
+footer {
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #00AFB2, black)1;
+  border-width: 1.5px;
+  background-color: #051918;
+  padding: 2rem;
+}
+footer p {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: whitesmoke;
+  text-align: center;
+  font-family: "Geo", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ 
+}
+
+.button {
+  background-color: #00AFB2;
+  color: black;
+  padding: 10px 20px;
+  margin: 32px auto;
+  width: 380px;
+  box-shadow: 0 0 20px #00AFB2;
+  text-align: center;
+}
