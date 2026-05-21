@@ -132,7 +132,7 @@ h1 {
   border-style: solid;
   border-image: linear-gradient(to bottom, #00AFB2, black)1;
   border-width: 1.5px;
-  z-index: 3;
+  z-index: 4;
 }
 .sidebar ul {
   list-style: none;
@@ -168,14 +168,20 @@ h1 {
 .noise {
  position: absolute;
  left: 50px;
- top: 20px;
+ top: -20px;
  z-index: 1;
 }
-
+.house {
+ position: absolute;
+ left: -300px;
+ top: 240px;
+ z-index: 1;
+}
 .content {
   flex: 1;
   flex-basis: auto;
   padding: 2rem;
+  z-index: 3;
 }
 
 .content section{
@@ -184,13 +190,14 @@ h1 {
   scroll-margin-top: 1rem;
   scroll-behavior: smooth;
   position: relative;
-  z-index: 2;
+  z-index: 3;
 }
 
 section h2 {
   font-size: 3rem;
   line-height: 3rem;
   color: whitesmoke;
+  z-index: 3;
 }
 
 .subtitle {
@@ -198,35 +205,46 @@ section h2 {
   font-size: 2rem;
   line-height: 2rem;
   color: #E7B956;
+  z-index: 3;
 }
 
 section p {
   font-size: 1.5rem;
   line-height: 2.5rem;
   color: #BBFEFF;
+  z-index: 3;
 }
 
+
 .signs {
+  position: relative;
   padding: 64px 0px;
+  z-index: 3;
 }
 
 .physical {
+  position: relative;
   background-color:#00AFB2;
   color: black;
   padding: 30px 30px 30px 30px;
   width: fit-content; 
   box-shadow: 0 0 20px #00AFB2;
+  margin-top: 5rem;
+  z-index: 3;
 }
 .signs ul{
+  position: relative;
   list-style-type: none;
   padding: 32px 0 200px 0;
   color: white;
   font-size: 2rem;
   line-height: 4rem;
+  z-index: 3;
 }
 
 p {
   padding: 25px 0px;
+  z-index: 3;
 }
 #key-tips {
   text-align: center;
