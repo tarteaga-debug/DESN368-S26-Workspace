@@ -322,3 +322,68 @@ THIS IS THE ABOUT ME
      margin: 0;
     }
 }
+
+/*============
+PROJECTS
+==============
+*/
+
+#projects {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  min-height: 850px;
+  background: url('../images/bg2.png') no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.section-title2 {
+  font-family: "Libre Bodoni", serif;
+  font-weight: 400;
+  font-size: 8rem;
+  color: #9F83BE;
+  position: absolute;
+  top: -1.5rem;
+  left: 3rem;
+  margin: 0;
+  z-index: 2;
+  max-width: calc(100% - 4rem);
+}
+
+.project-container {
+
+}
+
+.card-title {
+ font-family: Libre Bodoni;
+ font-size: 2rem;
+ font-weight: 400px;
+ color:#F6F4FB;
+ margin-bottom: -.8rem;
+}
+
+.preview {
+    min-height: 200px;
+    min-width: 360px;
+    background-color: #9F83BE;
+
+    transition: background-color 0.3s ease; 
+}
+
+.preview:hover {
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-desc {
+
+}
+
+.desc {
+
+}
