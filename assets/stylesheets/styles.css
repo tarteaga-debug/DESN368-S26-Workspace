@@ -421,6 +421,7 @@ PROJECTS
    background-color: #0A0404;
    margin-top: 30px;
    min-height: 800px;
+   padding: 180px 0 80px;
  }
  
 #section-title3 {
@@ -429,8 +430,8 @@ PROJECTS
   font-weight: 400;
   font-size: 8rem;
   color: #9F83BE;
-  top: -1.3rem;
-  left: 0;
+  top: -1.2rem;
+  left: 1rem;
   margin: 0;
   z-index: 2;
   max-width: calc(100% - 0px);
@@ -438,89 +439,124 @@ PROJECTS
 
 
  .field-section {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
   justify-content: center;
-  align-items: end;
+  align-items: start;
   background: linear-gradient(to bottom, #9F83BE, #432257);
   border: 1px solid #ead8ff;
   max-width: 1000px;
-  max-height: auto;
-  margin: 0 auto;
-  margin-bottom: 0rem;
-  padding: 30px;
-  gap: 2rem;
+  margin: 0 auto 2rem;
+  padding: 80px 30px 60px;
+ }
+
+ .contact-form {
+   display: flex;
+   flex-direction: column;
+   gap: 1rem;
+   width: 100%;
+   max-width: 520px;
  }
 
  .field {
    display: flex;
    flex-direction: column;
    font-family: Libre Bodoni;
-   font-size: 2rem;
-   color:#F6F4FB;
-   padding: 15px;
+   font-size: 1.25rem;
+   color: #F6F4FB;
+   gap: 0.5rem;
  }
 
- #name {
-   width: 300px;
-   height: 2rem;
-   background-color: #F6F4FB;
-   border: 2px solid #9F83BE;
+ .field label {
+   font-size: 1rem;
  }
 
- #email {
-    width: 300px;
-   height: 2rem;
+ .field input,
+ .field textarea {
+   width: 100%;
+   min-width: 0;
+   padding: 0.75rem 1rem;
    background-color: #F6F4FB;
    border: 2px solid #9F83BE;
-
- }
-
- #subject {
-   width: 300px;
-   height: 2rem;
-   background-color: #F6F4FB;
-   border: 2px solid #9F83BE;
+   border-radius: 8px;
+   font-family: Montserrat, sans-serif;
+   font-size: 1rem;
  }
 
  #message {
-   width: 300px;
-   height: 5rem;
-   background-color: #F6F4FB;
-   border: 2px solid #9F83BE;
+   height: 180px;
+ }
+
+ .contact-form button {
+   width: fit-content;
+   padding: 0.9rem 2rem;
+   background: linear-gradient(to bottom, #9F83BE, #432257);
+   box-shadow: 0 10px 10px rgba(31, 5, 36, 0.792);
+   font-family: Montserrat, sans-serif;
+   font-weight: 700;
+   font-size: 2rem;
+   color:#F6F4FB;
+   border-radius: 50px;
+   border:0px #0A0404;
+   cursor: pointer;
+   transition: transform 0.25s ease, background 0.25s ease;
+   align-items: center;
+ }
+
+ .contact-form button:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 16px 34px rgba(0, 0, 0, 0.45);
  }
 
  .socials {
-
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 1rem;
+   width: 100%;
+   max-width: 150px;
  }
 
- .github {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    padding: 0;
-    border: none;
-    background: linear-gradient(to bottom, #9F83BE, #432257);
-    box-shadow: #0A0404;
-    cursor: pointer;
+ .socials a {
+   width: 150px;
+   height: 150px;
+   border-radius: 100%;
+   display: grid;
+   place-items: center;
+   background: linear-gradient(to bottom, #9F83BE, #432257);
+   box-shadow: 0 10px 10px rgba(31, 5, 36, 0.792);
+   text-decoration: none;
+   transition: transform 0.25s ease, box-shadow 0.25s ease;
  }
 
- instagram {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    padding: 0;
-    border: none;
-    background: linear-gradient(to bottom, #9F83BE, #432257);
-    box-shadow: #0A0404;
-    cursor: pointer;
+ .socials a:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 16px 34px rgba(0, 0, 0, 0.45);
  }
 
+ .socials a img {
+   width: 70%;
+   height: auto;
+ }
 
  @media (max-width: 780px) {
+  .field-section {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .socials {
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
   #section-title3 {
     font-size: 3rem;
     position: absolute;
@@ -530,4 +566,18 @@ PROJECTS
     z-index: 2;
     max-width: calc(100% - 2rem);
   }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  min-height: 10rem;
+  background-color: #432257;
+  font-family: Montserrat;
+  font-weight: 400;
+  font-size: 1rem;
+  color:#ead8ff
 }
