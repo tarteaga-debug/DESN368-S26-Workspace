@@ -323,18 +323,6 @@ PROJECTS
   overflow: hidden;
 }
 
-.section-title2 {
-  position: absolute;
-  font-family: "Libre Bodoni", serif;
-  font-weight: 400;
-  font-size: 8rem;
-  color: #9F83BE;
-  bottom: 0;
-  right: 0;
-  margin: 0;
-  z-index: 2;
-  max-width: calc(100% - 0px);
-}
 
 #section-title2 {
   position: absolute;
@@ -427,10 +415,119 @@ PROJECTS
 
 
 
-.hp {
-    position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
+
+ #contact {
+   position: relative;
+   background-color: #0A0404;
+   margin-top: 30px;
+   min-height: 800px;
  }
+ 
+#section-title3 {
+  position: absolute;
+  font-family: "Libre Bodoni", serif;
+  font-weight: 400;
+  font-size: 8rem;
+  color: #9F83BE;
+  top: -1.3rem;
+  left: 0;
+  margin: 0;
+  z-index: 2;
+  max-width: calc(100% - 0px);
+}
+
+
+ .field-section {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background: linear-gradient(to bottom, #9F83BE, #432257);
+  border: 1px solid #ead8ff;
+  max-width: 1000px;
+  max-height: auto;
+  margin: 0 auto;
+  margin-bottom: 0rem;
+  padding: 30px;
+  gap: 2rem;
+ }
+
+ .field {
+   display: flex;
+   flex-direction: column;
+   font-family: Libre Bodoni;
+   font-size: 2rem;
+   color:#F6F4FB;
+   padding: 15px;
+ }
+
+ #name {
+   width: 300px;
+   height: 2rem;
+   background-color: #F6F4FB;
+   border: 2px solid #9F83BE;
+ }
+
+ #email {
+    width: 300px;
+   height: 2rem;
+   background-color: #F6F4FB;
+   border: 2px solid #9F83BE;
+
+ }
+
+ #subject {
+   width: 300px;
+   height: 2rem;
+   background-color: #F6F4FB;
+   border: 2px solid #9F83BE;
+ }
+
+ #message {
+   width: 300px;
+   height: 5rem;
+   background-color: #F6F4FB;
+   border: 2px solid #9F83BE;
+ }
+
+ .socials {
+
+ }
+
+ .github {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: none;
+    background: linear-gradient(to bottom, #9F83BE, #432257);
+    box-shadow: #0A0404;
+    cursor: pointer;
+ }
+
+ instagram {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    padding: 0;
+    border: none;
+    background: linear-gradient(to bottom, #9F83BE, #432257);
+    box-shadow: #0A0404;
+    cursor: pointer;
+ }
+
+
+ @media (max-width: 780px) {
+  #section-title3 {
+    font-size: 3rem;
+    position: absolute;
+    top: -.5rem;
+    left: 1rem;
+    margin: 0;
+    z-index: 2;
+    max-width: calc(100% - 2rem);
+  }
+}
