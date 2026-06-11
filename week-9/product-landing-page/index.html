@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
 
     <title>product-landing-page</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -17,68 +20,83 @@
         <li><a href=#hero-landing>HOME</a></li>
         <li><a href=#products>PRODUCTS</a></li>
         <li><a href=#compare>COMPARE</a></li>
-        <li><a href=#contact>CONTACT US</a></li>
+        <li><a href=#contact>CONTACT</a></li>
       </ul>
+      <img class="header-logo" src="assets/images/header-logo.png" alt="logo">
     </nav>
   </header>
 
-    <section id="hero-landing">
-        <h3 class="section-name">WEAR THE SEASON</h3>
-        <h1>Silk Pool</h1>
-        <h2 class="collection">SEASONS AVE</h2>
-        <p class="opening-line">
-          Wear the season and jump into the newest 
-          edition to our Seasons Ave collection. 
-        </p>
-        <p class="buy-hero"><a href=#products>Buy Bundle</a></p>
+   <section id="hero-landing" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h3 class="section-name">WEAR THE SEASON</h3>
+                <h1>Silk Pool</h1>
+                <h2 class="collection">SEASONS AVE</h2>
+                <p class="opening-line">
+                  Wear the season and jump into the newest 
+                  edition to our Seasons Ave collection. 
+                </p>
+                <p class="buy-hero"><a href=#products>BUY BUNDLE</a></p>
+            </div>
+
+        </div>
     </section>
 
     <section id="fragrance">
+     <div id="f-container">
       <h3 class="section-name">FRAGRANCE NOTES</h3>
        <p class="notes-desc">
         Silk Pool is a fresh floral scent. Light and airy, like silk against sun-kissed skin.
        </p>
-       <div class="top-notes">
-        <ul>
-          <li class="note-tile">TOP NOTES</li>
+       <div class="top-notes" id="notes">
+        <ul class="notes-list">
+          <li id="note-title">TOP NOTES</li>
           <li>Lily Of The Valley</li>
           <li>Peony</li>
         </ul>
        </div>
 
-       <div class="middle-notes">
-        <ul>
-          <li class="note-title">MIDDLE NOTES</li>
+       <div class="middle-notes" id="notes">
+        <ul class="notes-list">
+          <li id="note-title">MIDDLE NOTES</li>
           <li>Green Tea</li>
           <li>Rose Water</li>
         </ul>
        </div>
 
-       <div class="base-notes">
-        <ul>
-          <li class="note-title">BASE NOTES</li>
+       <div class="base-notes"  id="notes">
+        <ul class="notes-list">
+          <li id="note-title">BASE NOTES</li>
           <li>White Musk</li>
           <li>Sea Salt</li>
         </ul>
        </div>
+     </div>
     </section>
 
-    <section id="video">
-      <video>
-        <source src="" type="">
+    <section id="take-a-dip">
+      <div class="vid-container">
+      <h3 class="section-name2">INTRODUCING</h3>
+      <video width="889" height="500" controls>
+        <source src="assets/videos/takeadippromotion.mp4" type="video/mp4">
       </video>
+      </div>
     </section>
 
     <section id="products">
+     <div class="product-container">
+      <div>
       <h3 class="section-name">PRODUCTS</h3>
       <h2 class="silk-pool">Silk Pool</h2>
       <h2 class="collection">SEASONS AVE</h2>
+      </div>
   
      <!--===================
       Product Bundle Card
      =======================-->
+     <div class="collected-cards">
       <div class="bundle-card">
-          <img src="assets/images/bundle-photo.png" alt="bundle-photo">
+          <img class="bundle-img" src="assets/images/bundle-card.png" alt="bundle-photo">
 
         <div class="bundle-content">
           <p class="scentname">SILK POOL</p>
@@ -88,47 +106,54 @@
          <div class="actions1">
           <button class="buy1">Buy Bundle</button>
           <button class="like"><img src="assets/images/like.png" alt="Like"></button>
-         </div>
         </div>
       </div>
+     </div>
+    </div>
       <!--==================
       Product Cards
      =======================-->
       <div class="product-cards">
         
         <div class="card">
-          <img src="assets/images/eau-de-parfum.png" alt="eau de parfum">
-          <p class="scentname">SILK POOL</p>
-          <p class="type">EAU DE PARFUM</p>
-          <p class="price">$80.00</p>
-           <div class="actions2">
-            <button class="buy2"><img src="assets/images/bag.png" alt="add-to-bag"></button>
-            <button class="like"><img src="assets/images/like.png" alt="Like"></button>
-           </div>
+          <img src="assets/images/parfum-card.png" alt="eau de parfum">
+          <div class="card-content">
+            <p class="scentname">SILK POOL</p>
+            <p class="type">EAU DE PARFUM</p>
+            <p class="price">$80.00</p>
+             <div class="actions2">
+              <button class="buy2"><img src="assets/images/bag.png" alt="add-to-bag"></button>
+              <button class="like"><img src="assets/images/like.png" alt="Like"></button>
+             </div>
+          </div>
         </div>
 
         <div class="card">
-          <img src="assets/images/touch-up-mist.png" alt="touch-up-mist">
-          <p class="scentname">SILK POOL</p>
-          <p class="type">TOUCH-UP MIST</p>
-          <p class="price">$10.00</p>
-           <div class="actions2">
-            <button class="buy2"><img src="assets/images/bag.png" alt="add-to-bag"></button>
-            <button class="like"><img src="assets/images/like.png" alt="Like"></button>
-           </div>
+          <img src="assets/images/mist-card.png" alt="touch-up-mist">
+          <div class="card-content">
+            <p class="scentname">SILK POOL</p>
+            <p class="type">TOUCH-UP MIST</p>
+            <p class="price">$10.00</p>
+             <div class="actions2">
+              <button class="buy2"><img src="assets/images/bag.png" alt="add-to-bag"></button>
+              <button class="like"><img src="assets/images/like.png" alt="Like"></button>
+             </div>
+          </div>
         </div>
 
         <div class="card">
-          <img src="assets/images/body-butter.png" alt="body-butter">
-          <p class="scentname">SILK POOL</p>
-          <p class="type">BODY BUTTER</p>
-          <p class="price">$25.00</p>
-           <div class="actions2">
-            <button class="buy2"><img src="assets/images/bag.png" alt="add-to-bag"></button>
-            <button class="like"><img src="assets/images/like.png" alt="Like"></button>
-           </div>
+          <img src="assets/images/butter-card.png" alt="body-butter">
+          <div class="card-content">
+            <p class="scentname">SILK POOL</p>
+            <p class="type">BODY BUTTER</p>
+            <p class="price">$25.00</p>
+             <div class="actions2">
+              <button class="buy2"><img src="assets/images/bag.png" alt="add-to-bag"></button>
+              <button class="like"><img src="assets/images/like.png" alt="Like"></button>
+             </div>
+          </div>
         </div>
-
+       </div>
       </div>
     </section>
 
@@ -244,7 +269,7 @@
     </section>
 
     <section id="contact">
-      <h2 class="section-title">CONTACT US</h2>
+      <h2 class="section-title">CONTACT</h2>
        <p class="input-field">Full Name</p>
       <div class="box"></div>
        <p class="input-field">Email</p>
