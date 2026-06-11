@@ -468,26 +468,19 @@ video {
 }
 
 /* THIS IS THE HOVER ACTION CARDS */
-#sp-edp {
-  transition: transform 0.2s ease-in-out;
-}
-#sp-edp:hover {
-  transform: scale(1.2);
-}
-
-
-#sp-tum {
-  transition: transform 0.2s ease-in-out;
-}
-#sp-tum:hover {
-  transform: scale(1.2);
-}
-
+#sp-edp,
+#sp-tum,
 #sp-bb {
   transition: transform 0.2s ease-in-out;
 }
-#sp-bb:hover {
-  transform: scale(1.2);
+
+@media only screen and (min-width: 800px) {
+  #sp-edp:hover,
+  #sp-tum:hover,
+  #sp-bb:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
 }
 /*HOVER ACTION CARDS END*/
 
