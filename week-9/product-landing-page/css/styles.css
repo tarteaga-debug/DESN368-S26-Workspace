@@ -43,6 +43,9 @@ header .nav-bar{
 }
 
 .nav-buttons a {
+  font-family: outfit;
+  font-weight: 600;
+  font-size: 1.25rem;
   display: flex;
   list-style-type: none;
   text-decoration: none;
@@ -611,7 +614,7 @@ video {
 .bundle-table {
   background: #95DEFF;
   max-width: 300px;
-  height: 680px;
+  height: auto;
 }
 .ft-deco {
   background-color: #BFEBFF;
@@ -621,7 +624,7 @@ video {
 
 .table-title {
   font-family: outfit;
-  font-weight: 400px;
+  font-weight: 600;
   font-size: 1.5rem;
   color:#7D5072;
   padding: 15px;
@@ -636,11 +639,19 @@ video {
   margin-bottom: -15px;
 }
 
+.bt-list {
+  font-family: outfit;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align:center;
+  color:#7D5072;
+  padding: 15px;
+}
 
 .normal-table {
   background: #E7AAA6;
-  max-height: 500px;
-  margin-top: 180px;
+  max-height: auto;
+  margin-top: 140px;
 }
 
 .nt-title{
@@ -651,10 +662,61 @@ video {
   text-align:center;
 }
 .feature {
-    background: #ffffff;
-  border: 1px solid rgba(231, 170, 166, 0.35);
+  background: #ffffff;
   box-shadow: 0 8px 24px rgba(167, 129, 144, 0.12);
+  min-height: 8rem;
+  width: 100%;
 }
+
+.feat-price {
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgba(167, 129, 144, 0.12);
+  min-height: 8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 0;
+}
+.table-desc {
+  font-family: outfit;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color:#7D5072;
+  text-align:center;
+  padding: 15px;
+}
+.table-desc2 {
+  font-family: outfit;
+  font-weight: 400;
+  font-size: 1.15rem;
+  color:#7D5072;
+  text-align:center;
+  padding: 0;
+  margin: 0;
+}
+.b-bundle {
+  font-family: outfit;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color:#7D5072;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.a-bundle {
+  font-family: outfit;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color:#7D5072;
+  text-align:center;
+  padding: 0;
+  margin: 0;
+}
+
 
 @media (max-width: 768px) {
   #compare {
