@@ -14,8 +14,8 @@
   <p>This repository documents my journey through DESN368, where I learned to build for the web with HTML and CSS—understanding how the web actually works at the source level.
   </p>
 
-   <a href="">VIEW LIVE PORTFOLIO</a>
-   <a href="">VIEW LEARNING LOG</a>
+   <a href="https://tarteaga-debug.github.io/DESN368-S26-Workspace/">VIEW LIVE PORTFOLIO</a>
+   <a href="learning-log.html">VIEW LEARNING LOG</a>
 
  <div class="elements">
   <h2>DESIGN DIRECTION</h2>
@@ -35,36 +35,35 @@
     <p>#00000</p>
    </div>
 
-  <a href="">VIEW FIGMA FILE</a>
+  <a href="https://www.figma.com/design/dAOzYSsV8DsGOvUmD416eO/Portfolio?node-id=0-1&t=fWMIn5YqqqtHzpYM-1">VIEW FIGMA FILE</a>
  </div>
 
  <div class="projects">
   <div class="item">
    <h2>The Recipe</h2>
    <p>First project, I used my bananna pudding recipe.</p>
-   <a href="">Visit Site</a>
-   <a href="">View Process</a>
+   <a href="week-2/recipe.html">Visit Site</a>
   </div>
 
   <div class="item">
    <h2>Tribute Site</h2>
    <p>Based on my favorite artist.</p>
-   <a href="">Visit Site</a>
-   <a href="">View Process</a>
+   <a href="week-5/Tribute/index.html">Visit Site</a>
+   <a href="https://www.figma.com/design/5SxTQ7NenvE0ie7ESzUzrT/Tribute---Prince---Tracy-Arteaga---f25?t=fWMIn5YqqqtHzpYM-1">View Process</a>
   </div>
 
   <div class="item">
    <h2>Interactive Field Guide</h2>
    <p>A field guide on the game No, I'm Not A Human.</p>
-   <a href="">Visit Site</a>
-   <a href="">View Process</a>
+   <a href="week-8/Interactive-field-guide-complete/index.html">Visit Site</a>
+   <a href="https://www.figma.com/design/TTyjN8lbwTeRw7mUqnSHTm/TracyA-Interactive-Field-guide?node-id=0-1&t=e6R0Zl1LYiQfvKnu-1">View Process</a>
   </div>
 
   <div class="item">
    <h2>Product Landing</h2>
    <p>A website with products I created, and a brand I created.</p>
-   <a href="">Visit Site</a>
-   <a href="">View Process</a>
+   <a href="week-9/product-landing-page/index.html">Visit Site</a>
+   <a href="https://www.figma.com/design/gnpcAz1fdjBPFsWvXDHdHc/Tracy-Product?node-id=0-1&t=JvSN6VnxX5Q3eu6N-1">View Process</a>
   </div>
 
   <div class="skills">
@@ -98,7 +97,7 @@
   </div>
 
   <div class="reflection">
-   <a href="">Read Reflection On Portfolio Site</a>
+   <a href="https://tarteaga-debug.github.io/DESN368-S26-Workspace/">Read Reflection On Portfolio Site</a>
   </div>
 
 
