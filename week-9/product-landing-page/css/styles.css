@@ -230,20 +230,23 @@ header .nav-bar{
 .top-notes {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   margin-top: 10px;
 }
 
 .middle-notes {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   margin-top: 10px;
 }
 .base-notes {
   background-color: rgba(255, 255, 255, 0.8);
   padding: 10px;
-  width: 300px;
+  max-width: 300px;
+  width: 100%;
   margin-top: 10px;
 }
 
@@ -276,8 +279,9 @@ header .nav-bar{
 
 @media (max-width: 768px) {
   #fragrance {
-    max-height: 40vh;
- }
+    min-height: auto;
+    padding: 40px 20px;
+  }
 }
 
 #take-a-dip {
