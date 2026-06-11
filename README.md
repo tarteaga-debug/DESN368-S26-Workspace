@@ -20,19 +20,19 @@
  <div class="elements">
   <h2>DESIGN DIRECTION</h2>
  
-  <p>For my portfolio, I pursued a [describe your vibe in 2-3 words] aesthetic.</p>
+  <p>For my portfolio, I pursued a violet & dark luxe aesthetic.</p>
    <div>
     <h2>ELEMENTS</h3>
     <h3>HEADER TYPEFACE</h3>
-    <p>Libre Bodoni & ()</p>
+    <p>Libre Bodoni & MoteCarlo</p>
     <h3>BODY TYPEFACE</h3>
     <p>Montserrat</p>
     <h3>Primary Color</p>
-    <p>#00000</p>
+    <p>#432257</p>
     <h3>Accent Color</p>
-    <p>#00000</p>
+    <p>#9F83BE</p>
     <h3>Background Color</p>
-    <p>#00000</p>
+    <p>#0A0404</p>
    </div>
 
   <a href="https://www.figma.com/design/dAOzYSsV8DsGOvUmD416eO/Portfolio?node-id=0-1&t=fWMIn5YqqqtHzpYM-1">VIEW FIGMA FILE</a>
@@ -80,20 +80,20 @@
 
   <div class="archive">
    <h2>ARCHIVE</h2>
-    <a href="">Course Log</a>
+    <a href="archive/course-log.md">Course Log</a>
     <p>Detailed weekly documentation</p>
-    <a href="">Learning Log</a>
+    <a href="learning-log.html">Learning Log</a>
     <p>Index of all exercises and projects</p>
   </div>
 
   <div class="credit">
    <h2>CREDITS & CITATIONS</h2>
     <h3>Assets</h3>
-     <p> credit</p>
+     <p>Trioskaz (No, I'm Not A Human) | FKA Twigs (Ultra-Violet Instrumentals) | Adobestock | Google Images</p>
     <h3>Tutorials & Resources</h3>
-     <p> credit</p>
+     <p>W3Schools (https://www.w3schools.com/)</p>
     <h3>AI Assistance</h3>
-     <p> credit</p>
+     <p>I used the assistance for AI in a lot of my most recent projects including: Github Copilot, and ChatGPT. However, I would go in myself and edit any changes made by the AI. I used AI with little inteference in my Portfolio header, and all the section titles for my Portfolio. AI was also used to implement favicons, but the favicons were designed by me. All my media queries have been assisted by AI, but with some tweaks made by me.</p>
   </div>
 
   <div class="reflection">
