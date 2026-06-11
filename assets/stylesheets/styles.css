@@ -8,22 +8,6 @@
   font-weight: <weight>;
   font-style: normal;
 }
-
-// <weight>: Use a value from 100 to 900
-// <uniquifier>: Use a unique and descriptive class name
-
-.montserrat-<uniquifier> {
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
-.montecarlo-regular {
-  font-family: "MonteCarlo", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
 */
 
 * {
@@ -331,10 +315,8 @@ PROJECTS
 #projects {
   position: relative;
   display: flex;
-  flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
   margin-top: 30px;
   margin-bottom: 30px;
   min-height: 850px;
@@ -355,10 +337,22 @@ PROJECTS
   z-index: 2;
   max-width: calc(100% - 4rem);
 }
+.card-holder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
 
 .project-container {
-
+  flex: 0 0 calc(50% - 0.75rem);
+  box-sizing: border-box;
 }
+
 
 .card-title {
  font-family: Libre Bodoni;
@@ -369,8 +363,8 @@ PROJECTS
 }
 
 .preview {
-    min-height: 200px;
-    min-width: 360px;
+    max-height: 200px;
+    max-width: 360px;
     background-color: #9F83BE;
 
     transition: background-color 0.3s ease; 
@@ -381,9 +375,27 @@ PROJECTS
 }
 
 .card-desc {
-
+   background-image: linear-gradient(to bottom, rgb(10, 4, 4, .2), rgb(67, 34, 87, .5));
+   border-radius: 0 15px 15px 0;
+   max-width: 600px;
 }
 
 .desc {
-
+ font-family: Montserrat;
+ font-size: 1rem;
+ color:#F6F4FB;
+ padding: 1rem;
 }
+
+
+
+@media (max-width: 700px) {
+  #projects {
+    padding: 1.25rem 1rem;
+  }
+
+  .project-container {
+    flex: 0 0 100%;
+  }
+}
+
