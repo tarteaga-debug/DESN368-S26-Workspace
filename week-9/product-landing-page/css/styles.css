@@ -281,7 +281,7 @@ header .nav-bar{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #F7FBFD;
+  background-color: white;
   max-width: auto;
   margin: 0 auto;
   width: 100%;
@@ -362,7 +362,7 @@ video {
 }
 
 .bundle-content {
-  background-color: #F7FBFD;
+  background-color: white;
   width: 100%;
   height: auto;
   padding: 15px;
@@ -464,13 +464,39 @@ video {
   display: flex;
   flex-direction: column;
   gap: 20px;
+
 }
+
+/* THIS IS THE HOVER ACTION CARDS */
+#sp-edp {
+  transition: transform 0.2s ease-in-out;
+}
+#sp-edp:hover {
+  transform: scale(1.2);
+}
+
+
+#sp-tum {
+  transition: transform 0.2s ease-in-out;
+}
+#sp-tum:hover {
+  transform: scale(1.2);
+}
+
+#sp-bb {
+  transition: transform 0.2s ease-in-out;
+}
+#sp-bb:hover {
+  transform: scale(1.2);
+}
+/*HOVER ACTION CARDS END*/
 
 .product-cards .card {
   background: #ffffff;
-  padding: 16px;
+  padding: 30px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.06);
 }
+
 
 #products {
   background-color: #F1EBE5;
