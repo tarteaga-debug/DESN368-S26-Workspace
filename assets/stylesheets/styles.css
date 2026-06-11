@@ -90,6 +90,7 @@ HERO SECTION
   justify-content: space-between;
   gap: 2rem;
   margin-top: 30px;
+  margin-bottom: 30px;
   max-height: 850px;
   background: url('../images/background-shot.png') no-repeat center;
   background-size: cover;
@@ -240,6 +241,84 @@ h1 {
     z-index: 2;
     max-width: calc(100% - 4rem);
   }
+}
 
+/*=====================
+THIS IS THE ABOUT ME
+====================
+*/
 
+#about-me {
+    display: flex;
+    gap: 1px;
+    margin-bottom: 30px;
+    max-height: 600px;
+}
+
+.ab-box {
+    display: flex;
+    justify-content: right;
+    flex: 1;
+    padding: 30px;
+    background-color:#9F83BE;
+    z-index: 2;
+    max-width: 800px;
+    max-height: 600px;
+  
+}
+.ab-box p {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #F6F4FB;
+    max-width: 400px;
+    max-height: 600px;
+
+}
+.ab-section {
+    font-family: Libre Bodoni;
+    font-size: 3rem;
+    color: #432257;
+    padding-bottom: 30px;
+
+}
+
+#about-me img {
+    position: absolute;
+    right: 0;
+    max-height: 500px;
+    width: auto;
+    z-index: 0;
+}
+
+@media (max-width: 780px) {
+    .ab-box {
+     max-height: 100%;
+     max-width: 50%;
+     margin: 0;
+    
+    }
+
+    .ab-section {
+     font-size: 1rem;
+     padding-right: 5px;
+     padding-bottom: 5px;
+     line-height: 1rem;
+    
+    }
+
+    .ab-box p {
+     font-size: .5rem;
+     padding-right: 15px;
+     padding-top: 5px;
+     line-height: 1rem;
+    
+    }
+
+    #about-me img {
+     max-height: 300px;
+     max-width: 91%;
+     margin: 0;
+    }
 }
