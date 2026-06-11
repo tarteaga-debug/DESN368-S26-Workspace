@@ -137,9 +137,7 @@ HERO SECTION
   color: #F6F4FB;
   margin-left: -40px;
 }
-.subtitle {
 
-}
 
 h1 {
   font-family: "Libre Bodoni", serif;
@@ -326,30 +324,46 @@ PROJECTS
 }
 
 .section-title2 {
+  position: absolute;
   font-family: "Libre Bodoni", serif;
   font-weight: 400;
   font-size: 8rem;
   color: #9F83BE;
-  position: absolute;
-  top: -1.5rem;
-  left: 3rem;
+  bottom: 0;
+  right: 0;
   margin: 0;
   z-index: 2;
-  max-width: calc(100% - 4rem);
+  max-width: calc(100% - 0px);
+}
+
+#section-title2 {
+  position: absolute;
+  font-family: "Libre Bodoni", serif;
+  font-weight: 400;
+  font-size: 8rem;
+  color: #9F83BE;
+  top: -2rem;
+  left: 0;
+  margin: 0;
+  z-index: 2;
+  max-width: calc(100% - 0px);
 }
 .card-holder {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 5rem;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
+  padding: 1rem 1rem;
   box-sizing: border-box;
   justify-content: space-between;
 }
 
 .project-container {
-  flex: 0 0 calc(50% - 0.75rem);
+  flex: 1;
   box-sizing: border-box;
 }
 
@@ -359,25 +373,27 @@ PROJECTS
  font-size: 2rem;
  font-weight: 400px;
  color:#F6F4FB;
- margin-bottom: -.8rem;
+ margin-bottom: -.5rem;
 }
 
-.preview {
+.preview img {
     max-height: 200px;
     max-width: 360px;
-    background-color: #9F83BE;
 
-    transition: background-color 0.3s ease; 
+    transition: background-image 0.3s ease; 
 }
 
-.preview:hover {
+.preview img:hover{
  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .card-desc {
    background-image: linear-gradient(to bottom, rgb(10, 4, 4, .2), rgb(67, 34, 87, .5));
    border-radius: 0 15px 15px 0;
-   max-width: 600px;
+   border: 1px solid #9F83BE;
+   padding: 15px;
+   height: 150px;
+
 }
 
 .desc {
@@ -389,13 +405,23 @@ PROJECTS
 
 
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
   #projects {
     padding: 1.25rem 1rem;
   }
 
   .project-container {
     flex: 0 0 100%;
+  }
+
+  #section-title2 {
+    font-size: 3rem;
+    position: absolute;
+    top: -.5rem;
+    left: 1rem;
+    margin: 0;
+    z-index: 2;
+    max-width: calc(100% - 2rem);
   }
 }
 
