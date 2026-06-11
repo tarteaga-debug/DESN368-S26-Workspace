@@ -1,0 +1,75 @@
+/*
+// <weight>: Use a value from 400 to 700
+// <uniquifier>: Use a unique and descriptive class name
+
+.libre-bodoni-<uniquifier> {
+  font-family: "Libre Bodoni", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name
+
+.montserrat-<uniquifier> {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.montecarlo-regular {
+  font-family: "MonteCarlo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: #0A0404;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 15px;
+}
+
+#nav-title {
+  font-family: "Libre Bodoni", serif;
+  font-size: 1rem;
+  color: #F6F4FB;
+  padding: 15px 0;
+  margin-left: 15px;
+}
+
+.nav-buttons {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-buttons a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: .8rem;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #F6F4FB;
+  background-color: transparent;
+}
