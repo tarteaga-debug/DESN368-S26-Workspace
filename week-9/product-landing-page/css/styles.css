@@ -279,7 +279,7 @@ header .nav-bar{
 
 @media (max-width: 768px) {
   #fragrance {
-    min-height: auto;
+    height: auto;
     padding: 40px 20px;
   }
 }
@@ -289,7 +289,7 @@ header .nav-bar{
   justify-content: center;
   align-items: center;
   background-color: white;
-  max-width: auto;
+  width: 0 auto;
   margin: 0 auto;
   width: 100%;
 }
@@ -305,7 +305,7 @@ video {
 .section-name2 {
   font-family: outfit;
   font-size: 7rem;
-  font-weight: 900px;
+  font-weight: 600px;
   color:#E7AAA6;
   text-align:center;
 }
@@ -351,7 +351,7 @@ video {
   max-width: 600px;
   min-height: 700px;
   padding: 15px;
-  margin: 15;
+  margin: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -654,7 +654,7 @@ video {
 
 .normal-table {
   background: #E7AAA6;
-  max-height: auto;
+  height: auto;
   margin-top: 140px;
 }
 
@@ -760,7 +760,7 @@ video {
 .contact-container {
   max-width: 900px;
   margin: 0;
-  padding: o;
+  padding: 0;
 }
 .section-title{
   font-family: "Outfit", sans-serif;
