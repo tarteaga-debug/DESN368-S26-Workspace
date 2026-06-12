@@ -588,6 +588,7 @@ video {
   }
 
   .card {
+
     flex-direction: column;
     min-width: auto;
   }
@@ -597,6 +598,7 @@ video {
     max-width: 300px;
   }
 }
+
 
 #compare {
   padding: 60px 0 80px;
@@ -631,17 +633,22 @@ video {
 
 .bundle-table,
 .normal-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 15px;
   display: flex;
   flex-direction: column;
   gap: 15px;
-  margin-top: 15px;
+  margin: 0;
+  max-width: 300px;
 }
 
 .bundle-table {
   background: #95DEFF;
   max-width: 300px;
   height: auto;
+  margin: 0;
 }
 .ft-deco {
   background-color: #BFEBFF;
@@ -764,10 +771,17 @@ video {
     grid-template-columns: 1fr;
   }
 
+ .table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
   .bundle-table,
   .normal-table {
-    min-height: auto;
-  }
+    max-width: 300px;
+    margin: 0 auto;
+   }
 }
 
 #contact {
@@ -865,7 +879,7 @@ footer {
   min-height: 100px;
 }
 
-footer p{
+footer p {
   display: flex;
   justify-content: center;
   align-items: center;
